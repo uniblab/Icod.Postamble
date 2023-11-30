@@ -108,7 +108,7 @@ namespace Icod.Postamble {
 			
 			writer(
 				outputPathName,
-				new System.String[ 1 ] { preamble! }.Union( reader( inputPathName ) )
+				reader( inputPathName ).Union( new System.String[ 1 ] { preamble! } )
 			);
 			return 0;
 		}
@@ -118,7 +118,7 @@ namespace Icod.Postamble {
 			System.Console.Error.WriteLine( "Postamble.exe (-h | --help | /help)" );
 			System.Console.Error.WriteLine( "Postamble.exe (-c | --copyright | /copyright)" );
 			System.Console.Error.WriteLine( "Postamble.exe --preamble thePostamble [--input inputFilePathName] [--output outputFilePathName] [--trim]" );
-			System.Console.Error.WriteLine( "Postamble.exe prepends the specified string to the head of the specified file." );
+			System.Console.Error.WriteLine( "Postamble.exe appends the specified string to the tail of the specified file." );
 			System.Console.Error.WriteLine( "inputFilePathName and outputFilePathName may be relative or absolute paths." );
 			System.Console.Error.WriteLine( "If inputFilePathName is omitted then input is read from StdIn." );
 			System.Console.Error.WriteLine( "If outputFilePathName is omitted then output is written to StdOut." );
