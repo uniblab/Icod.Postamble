@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{3EF526FF-ED97-425D-BF17-52FB674EBE9F}") = "Icod.Postamble", "Icod.Postamble.csproj", "{8DA6ECD0-69EC-4CB1-AC33-A4A2E723A359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DA6ECD0-69EC-4CB1-AC33-A4A2E723A359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA6ECD0-69EC-4CB1-AC33-A4A2E723A359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA6ECD0-69EC-4CB1-AC33-A4A2E723A359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA6ECD0-69EC-4CB1-AC33-A4A2E723A359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {886D2659-A74E-4A3D-85FD-3EAFF5D9BAA0}
+	EndGlobalSection
+EndGlobal

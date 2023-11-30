@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Postamble.exe apends the specified string to the tail of the specified file.
+    Copyright (C) 2023 Timothy J. Bruce
+-->
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RootNamespace>Icod.Postamble</RootNamespace>
+		<AssemblyName>Postamble</AssemblyName>
+		<OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Icod.Argh" Version="1.1.1" />
+	  <PackageReference Include="Icod.Helpers" Version="1.0.0" />
+	</ItemGroup>
+</Project>
